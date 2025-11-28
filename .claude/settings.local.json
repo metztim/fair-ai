@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:sacra.com)",
+      "WebFetch(domain:www.animalz.co)",
+      "WebFetch(domain:www.linkedin.com)",
+      "WebFetch(domain:www.superpath.co)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
