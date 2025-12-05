@@ -1,0 +1,181 @@
+Okay, so I've been thinking about this idea that, I mean, several people talk about, it's almost like, just in the last few weeks, but it's almost become like accepted wisdom or theory or truth or whatever you want to call it, that we're now in an AI bubble. like many prominent analysts and people are saying like yes we're definitely in a bubble right and they're attributing that to mostly the kind of deals that open ai is making i think they're kind of i think what they're saying is like well this company has like what is it like four or eight billion in revenue and they now have like 1.5 trillion in committed deals for compute with companies like well i don't know with all kinds of companies and um and that this i think plus of the valuations of nvidia and all these companies that you know it's like we're in a bubble for sure um and then people are talking about oh but maybe it's not so bad like you know we had bubbles before with the internet and infrastructure gets built out and in this case like uh the bubble means that yeah there will be pain and some of these companies will go bankrupt or lose a little money but ultimately it is good also because um you know there will be energy build out we will lady infrastructure etc um and then when this technology does mature uh on a much longer trajectory than what what people how people are now valuing things um uh uh it will be good in the long term maybe i mean except all the other potential risks and things about ai but um and um i think part of this is also i mean first of all of course it could be true right so that's one But what I've, and then it really puts people in two camps, which is kind of like, you know, there's the analyst and other experts who are saying like, yeah, it's a bubble, right?
+
+This doesn't make sense, blah, blah, blah.
+
+And I think one other really important component of this is that most people who say this also kind of assume that the technology is not living up to the hype.
+
+So this is a very important point, actually, because that is kind of, you know, on the one hand, there's like the revenue and these deals and whatever that seem kind of crazy.
+
+And then there's also this like, well, the technology is hitting a limit.
+
+Actually, like, you know, look at the numbers like AI, AI implementations are mostly failing at companies.
+
+And it's kind of all hype and bullshit.
+
+And then depending on who you talk to, they can they might say that they think it's just complete bullshit.
+
+And some might say, well, it's just like much, much longer before these technologies really mature.
+
+And this is where my, well, this whole idea that I have comes from, which is, well, what if we're not in a bubble?
+
+And my reasoning here is that, and this is key, it's like from my own experience where I'm just a relatively normal person, so to say, I don't have access to any knowledge or access to what is actually happening within these frontier AI companies.
+
+I'm just judging based on my own work and using the latest models.
+
+At the moment, I'm mostly using Sona Claw from Anthropic, Sona 4.5, and then with Clawed Code.
+
+And from my own experience, what I'm able to do with these tools now, I'm quite blown away.
+
+And I think I can say that from what I've seen, I've worked with a few other companies, not just the work I'm doing at Animals.
+
+And actually the work I'm doing at Animals, I think it's a bit different.
+
+But I've worked with a few startups.
+
+I've looked at a few big corporate companies and talked with some people.
+
+And I'm pretty confident that if I were given free reign at some of these companies and resources, I could automate, I think, at least 25% of work that's being done at these companies.
+
+And in some companies, I'm pretty sure it could be more.
+
+And I think very soon, and when I say 25%, and so here's where I'm not necessarily talking.
+
+I think actually marketing and creative work, it's still actually a bit different from what you expect.
+
+Because initially it seemed that generative AI could just take that over.
+
+I think that part is more complicated.
+
+But I'm actually more talking about knowledge work.
+
+And if you look at like especially bigger companies, a lot of the knowledge work is just like admin work, you know, all kinds of like finance, legal, processing stuff from like managing projects, meetings, like documentation, all this kind of stuff.
+
+Approvals, like that stuff, really with what is out there now can be automated like 80%, 90%.
+
+And I think we're already at a point where if you set it up in the right way, like something like cloud code, building things, building processes with those models and connecting it to some of your knowledge bases, it can really start to do some of the work that middle managers do.
+
+And I think that is going to, assuming that the models keep getting better, I think that's going to be more and more possible, where essentially an AI agent, let's call it that, can be a regular kind of middle manager or at least do part of the work that a middle manager in a big company does.
+
+I'm pretty sure about that.
+
+And this is key, based on my own experience with these tools.
+
+And so this is where I think the tension comes from, which is if you look at most people, even like experts, like I would say like Ben Thompson, Estretery, I feel he's using some AI.
+
+Then there's Benedict Evans, who I heard on a podcast on the Knowledge Project was very underwhelmed by, like he's essentially not using it for anything.
+
+And that's fine.
+
+I have total respect for writers and creative people who say, look, I don't want to use it either because I'm against it or I just don't see the benefit.
+
+And, you know, you can see my article of Confessions of an AI Addict.
+
+I think there's a lot of downsides for creative people from using it.
+
+But there are also upsides if you can kind of tame the beast, so to say.
+
+But for a technology analyst like Benedict Evans, I think it's kind of like I listened to that interview.
+
+I think it's kind of ridiculous.
+
+Like, you can hear that he just doesn't have much experience with it.
+
+And then he is very critical of it.
+
+So I think, and this is with a lot of, like, I'm reading a book now, also Empire of AI, and a lot of things I read.
+
+Like, my impression is that even people who are professionally writing about it and involved in this stuff, they know the theory, but they are not really using it to, you know, they're not pushing it to the edges.
+
+And even they are at least like 6 to 12 months behind is always my impression.
+
+And then if you look at the general public, I would say most people are, let's say, 12 to 24 months behind of where I am.
+
+Because some people are just like, oh, I can use ChedGPT to, I don't know, summarize a meeting.
+
+Like, you know, that's what's possible two years ago.
+
+So you have that lag where, like, I think most people are like 12 to 24 months behind at least on what is currently actually possible.
+
+And then you have on the other side, the AI companies themselves, where you can assume that they are at least 12 to 24 months ahead of what's possible.
+
+With like models they can't release, with R&D they're doing, which like, you know, it might not work yet, but they can see what's on the horizon, right?
+
+And so I think if you take that into account, another way to read what everybody is now calling the bubble could be to say, like, look, actually, and this is why it's a very uncomfortable truth.
+
+It's like, what if it's not a bubble?
+
+And what if those people who are in those labs and who are in these companies like Nvidia and whatever doing the infrastructure, they see that actually we are now at the point where this technology is really able to start to replace large groups of knowledge workers.
+
+And if that's the case, then these valuations and these kind of deals are not that crazy.
+
+Like, how much do we spend on knowledge worker salaries, right?
+
+I mean, it's trillions and trillions.
+
+And so, if this is the beginning of replacing a lot of knowledge work, then, you know, and I can see it.
+
+Like, I don't, and that's what I mean.
+
+Like, I don't have to even squint anymore to see that it's possible.
+
+Like, even if the technology would stop where it is today, I think 25, at least 25% of work that's being done in knowledge work companies can be replaced.
+
+And I also even think that's a little bit conservative.
+
+So if you, you know, and that's what I'm seeing as a regular person who's just kind of at the, I think I can say I'm probably at the, a bit at the front, a front runner, but just with normal access and normal things.
+
+So, and just being able to work with it the whole day and having been kind of forced to go that direction because I was worried about my own work, then, you know, then, again, maybe those valuations are not so crazy.
+
+And maybe what we're looking at is like, well, maybe this time it is different, right?
+
+And again, that's also like, it is easy to say, like, you know, if you take the internet, for example, if in the late 90s you were saying, like, well, e-commerce is crazy because there's not enough people, the internet's not fast enough, and blah, blah, blah, you were right.
+
+But if you looked at the long term, you clearly were wrong.
+
+Just look at Amazon, right?
+
+But what we're seeing now might be very different.
+
+Maybe we're not at the point where it's like, oh, actually this technology is very far behind and it can't do a lot of the things that it was advertised to do and this will be another 10 to 20 years.
+
+Again, from my own experience, I don't think that's the case.
+
+I just think that most people have not pushed these models and used them in the right way to see what they're already really capable of.
+
+And I think that's very widespread.
+
+I think there are relatively few people who understand that.
+
+And something that I think also is true is that as these models, I've seen them myself, as these models get more capable, it becomes easier to work with them, so to say.
+
+So it is less and less, you know, they're more and more able to work with, let's say, fuzzy instructions, to stay on task, to correct themselves.
+
+And so, you know, that's another thing that they might be seeing in these labs.
+
+You know, remember, they might be at GPT-5 or GPT-6 or SONET-5 or SONET-6 or whatever.
+
+And so, you know, imagine what those models can do.
+
+Like, yeah, I can totally see those replacing, like, average knowledge workers.
+
+And, again, if that's the case, then these valuations are not crazy.
+
+These valuations are actually what it looks like when, you know, the trillions that are spent on knowledge workers are going to move from salaries to these resources.
+
+And then, you know, I think that's for another day.
+
+I'm not completely convinced that no work will come back in place.
+
+I'm also definitely not convinced it will.
+
+As some people say, like, oh, every technological revolution, new jobs appear that you couldn't imagine.
+
+Yeah, I think I'm probably still 50-50 on that.
+
+Like, I 50% think that might be true.
+
+I 50% think it's probably not true.
+
+Or maybe 60% not true. 40 might be true um i'm just seeing in my own work like new things emerge that i never had to do before uh that are completely different um but that are coming from this you know from this from this ai work so maybe that's true but again that's another topic but either way even if other work comes in place it's not going to be the same jobs and so then um yeah it's like well maybe we should wish that we're in a bubble right i will also attach like conversation i briefly had that was my first brain dump on this with normal Claude um they said like yeah kind of the idea of a bubble is kind of comforting in the way in the sense that like uh um then it's like oh things will you know people everybody's a bit crazy now but things will go back to normal um and and and that's why this this reality would be much more uncomfortable and inconvenient.
+
+That essentially is the sign of like massive job displacement right at the horizon.

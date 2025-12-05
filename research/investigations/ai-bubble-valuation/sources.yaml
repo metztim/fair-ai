@@ -1,0 +1,802 @@
+metadata:
+  investigation: "ai-bubble-valuation"
+  created: "2025-12-05"
+  last_updated: "2025-12-05"
+  total_sources: 52
+  archived_count: 0
+
+sources:
+  # ============================================
+  # AI Company Valuations & Revenue Data
+  # ============================================
+
+  - id: "sacra-openai-2025"
+    title: "OpenAI Revenue and Growth Rate"
+    url: "https://sacra.com/c/openai/"
+    type: "report"
+    author: "Sacra"
+    accessed: "2025-12-05"
+    reliability: "high"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "OpenAI reached $13B ARR in July 2025"
+      - "Revenue jumped from $13B to $20B ARR in November 2025"
+    tags: ["openai", "revenue", "valuation"]
+
+  - id: "sacra-anthropic-2025"
+    title: "Anthropic Revenue and Growth Rate"
+    url: "https://sacra.com/c/anthropic/"
+    type: "report"
+    author: "Sacra"
+    accessed: "2025-12-05"
+    reliability: "high"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "Anthropic $7B ARR by October 2025"
+    tags: ["anthropic", "revenue", "valuation"]
+
+  - id: "theregister-circular-ai-economy"
+    title: "The Circular Economy of AI"
+    url: "https://www.theregister.com/2025/11/04/the_circular_economy_of_ai/"
+    type: "article"
+    author: "The Register"
+    accessed: "2025-12-04"
+    reliability: "medium"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "OpenAI signing $1-1.5T in vendor deals"
+    tags: ["openai", "deals", "infrastructure"]
+
+  - id: "amd-openai-warrants"
+    title: "AMD SEC Filing - OpenAI Warrants"
+    url: "https://ir.amd.com/financial-information/sec-filings/content/0001193125-25-230895/d28189d8k.htm"
+    type: "regulatory-filing"
+    author: "AMD"
+    accessed: "2025-12-04"
+    reliability: "very-high"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "AMD warrants for up to 10% of OpenAI at $0.01/share in exchange for chip purchases"
+    tags: ["openai", "amd", "equity", "chips"]
+
+  # ============================================
+  # Bubble Analysis & Commentary
+  # ============================================
+
+  - id: "spyglass-ai-bubble"
+    title: "AI Bubble Analysis"
+    url: "https://spyglass.org/ai-bubble/"
+    type: "analysis"
+    author: "M.G. Siegler"
+    accessed: "2025-12-04"
+    reliability: "medium"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "It's less about a bubble that could burst and more about a bet that could bust"
+      - "It has to be AGI - if we don't get it: Kaboom"
+    tags: ["bubble", "agi", "analysis"]
+
+  - id: "stratechery-benefits-bubbles"
+    title: "The Benefits of Bubbles"
+    url: "https://stratechery.com/2025/the-benefits-of-bubbles/"
+    type: "analysis"
+    author: "Ben Thompson"
+    accessed: "2025-12-04"
+    reliability: "high"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "This is a bubble"
+      - "Bubbles enable Installation Phase for new technology"
+      - "Bubbles may end badly but history does not end"
+    tags: ["bubble", "stratechery", "historical-analysis"]
+
+  - id: "awilkinson-job-collapse-thread"
+    title: "Andrew Wilkinson Thread on Job Collapse"
+    url: "https://x.com/awilkinson/status/1938700760491139092"
+    type: "social-media"
+    author: "Andrew Wilkinson"
+    accessed: "2025-11-27"
+    reliability: "medium"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "Detailed analysis of AI job displacement scenarios"
+    tags: ["displacement", "jobs", "twitter"]
+
+  # ============================================
+  # Knowledge Work & Productivity Research
+  # ============================================
+
+  - id: "animalz-ai-addiction"
+    title: "My AI Addiction"
+    url: "https://www.animalz.co/blog/ai-addiction"
+    type: "blog"
+    author: "Tim Metz / Animalz"
+    accessed: "2025-12-04"
+    reliability: "high"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "Personal experience with AI workflow evolution"
+    tags: ["personal", "workflows", "experience"]
+
+  - id: "linkedin-bubble-post"
+    title: "LinkedIn Post - AI Bubble Discussion"
+    url: "https://www.linkedin.com/posts/metztim_everyones-calling-this-an-ai-bubble-i-hope-activity-7396801059056340992-83Ns"
+    type: "social-media"
+    author: "Tim Metz"
+    accessed: "2025-12-04"
+    reliability: "high"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "Challenge: name a specific mid-level role that can be replaced soon"
+    tags: ["personal", "linkedin", "discussion"]
+
+  # ============================================
+  # Economic Research & Reports (Named Sources)
+  # ============================================
+
+  - id: "mckinsey-automation-economics"
+    title: "McKinsey Global Institute - Automation Economics"
+    url: "https://www.mckinsey.com/featured-insights/future-of-work"
+    type: "report"
+    author: "McKinsey Global Institute"
+    accessed: "2025-12-05"
+    reliability: "high"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "30% of US work hours could be automated by 2030"
+      - "49% of managerial work could be automated"
+      - "75% of manager time goes to individual execution or admin tasks"
+    tags: ["mckinsey", "automation", "knowledge-work"]
+
+  - id: "mckinsey-ai-economic-potential"
+    title: "The Economic Potential of Generative AI"
+    url: "https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier"
+    type: "report"
+    author: "McKinsey"
+    accessed: "2025-12-05"
+    reliability: "high"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "AI could inject $2.6-4.4T annually in economic value globally"
+    tags: ["mckinsey", "economic-impact", "generative-ai"]
+
+  - id: "brookings-ai-firms"
+    title: "How AI Affects Knowledge Workers"
+    url: "https://www.brookings.edu/articles/how-artificial-intelligence-affects-firms/"
+    type: "research"
+    author: "Brookings Institution"
+    accessed: "2025-12-05"
+    reliability: "high"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "Analysis of AI impact on firm productivity"
+    tags: ["brookings", "ai-impact", "firms"]
+
+  - id: "goldman-ai-investment"
+    title: "Goldman Sachs AI Investment Analysis"
+    url: "https://www.goldmansachs.com/intelligence/pages/ai-investment-forecast-to-approach-200-billion-globally-by-2025.html"
+    type: "report"
+    author: "Goldman Sachs"
+    accessed: "2025-12-05"
+    reliability: "high"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "AI development spending projected to hit $1 trillion"
+      - "6-7% of US workforce could be displaced"
+      - "300 million jobs globally exposed to automation"
+    tags: ["goldman-sachs", "investment", "displacement"]
+
+  - id: "gartner-middle-management"
+    title: "Gartner Prediction on Middle Management"
+    url: "https://www.gartner.com/en/newsroom"
+    type: "prediction"
+    author: "Gartner"
+    accessed: "2025-12-05"
+    reliability: "high"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "By 2026, 20% of organizations will use AI to flatten structure"
+      - "Eliminating more than half of middle management positions"
+    tags: ["gartner", "middle-management", "prediction"]
+
+  - id: "bcg-ai-value"
+    title: "BCG Research on AI Value Generation"
+    url: "https://www.bcg.com/publications/2024/ai-adoption-value-creation"
+    type: "report"
+    author: "Boston Consulting Group"
+    accessed: "2025-12-05"
+    reliability: "high"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "Only 26% of companies achieving tangible AI value"
+      - "74% struggling to generate value"
+    tags: ["bcg", "adoption", "roi"]
+
+  # ============================================
+  # Labor Economics & Displacement Research
+  # ============================================
+
+  - id: "stanford-entry-level-displacement"
+    title: "Canaries in the Coal Mine - AI Employment Effects"
+    url: "https://digitaleconomy.stanford.edu/"
+    type: "academic-paper"
+    author: "Brynjolfsson, Chandar, Chen (Stanford)"
+    accessed: "2025-12-05"
+    reliability: "very-high"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "13% relative employment decline for ages 22-25 in AI-exposed roles"
+      - "Software developers aged 22-25: ~20% employment decline"
+      - "Based on ADP payroll data covering 25+ million workers"
+    tags: ["stanford", "entry-level", "displacement", "academic"]
+
+  - id: "acemoglu-ai-growth"
+    title: "Acemoglu AI Economic Impact Paper"
+    url: "https://economics.mit.edu/people/faculty/daron-acemoglu"
+    type: "academic-paper"
+    author: "Daron Acemoglu (MIT)"
+    accessed: "2025-12-05"
+    reliability: "very-high"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "AI will contribute only 0.5% GDP growth over 10 years"
+      - "Task reinstatement framework"
+    tags: ["mit", "acemoglu", "gdp", "academic"]
+
+  - id: "autor-demographics-labor"
+    title: "David Autor on Demographics and Labor"
+    url: "https://economics.mit.edu/people/faculty/david-autor"
+    type: "academic"
+    author: "David Autor (MIT)"
+    accessed: "2025-12-05"
+    reliability: "very-high"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "Industrialized world is awash in jobs"
+      - "60% of 2018 employment was in job titles that didn't exist in 1940"
+      - "Chronic labor shortages may absorb displaced workers"
+    tags: ["mit", "autor", "demographics", "labor"]
+
+  - id: "bls-occupational-outlook"
+    title: "BLS Occupational Outlook Handbook"
+    url: "https://www.bls.gov/ooh/"
+    type: "government-data"
+    author: "Bureau of Labor Statistics"
+    accessed: "2025-12-05"
+    reliability: "very-high"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "Customer service: 5% decline through 2034"
+      - "Bookkeeping clerks: 6% decline"
+      - "Bank tellers: 13% decline through 2034"
+    tags: ["bls", "government", "projections"]
+
+  - id: "wef-future-of-jobs"
+    title: "World Economic Forum Future of Jobs Report"
+    url: "https://www.weforum.org/publications/the-future-of-jobs-report-2025/"
+    type: "report"
+    author: "World Economic Forum"
+    accessed: "2025-12-05"
+    reliability: "high"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "41% of employers intend to reduce workforce due to AI"
+      - "92 million jobs displaced globally by 2030"
+      - "170 million new jobs created (net +78 million)"
+    tags: ["wef", "jobs", "global"]
+
+  - id: "bain-labor-2030"
+    title: "Bain Labor 2030 Report"
+    url: "https://www.bain.com/insights/labor-2030/"
+    type: "report"
+    author: "Bain & Company"
+    accessed: "2025-12-05"
+    reliability: "high"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "2.5 million workers displaced per year"
+      - "20-25% of current jobs eliminated by late 2020s"
+      - "$8 trillion cumulative automation investment in US"
+    tags: ["bain", "labor", "automation"]
+
+  - id: "korn-ferry-labor-shortage"
+    title: "Korn Ferry Global Talent Crunch"
+    url: "https://www.kornferry.com/insights/this-week-in-leadership/talent-crunch-future-of-work"
+    type: "report"
+    author: "Korn Ferry"
+    accessed: "2025-12-05"
+    reliability: "high"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "85.2 million global worker shortage by 2030"
+      - "$8.5 trillion in unrealized annual revenues"
+      - "41% of employees report reduced managerial layers"
+    tags: ["korn-ferry", "shortage", "demographics"]
+
+  # ============================================
+  # Company Case Studies
+  # ============================================
+
+  - id: "klarna-ai-transformation"
+    title: "Klarna AI Transformation Case Study"
+    url: "https://www.klarna.com/international/press/"
+    type: "press-release"
+    author: "Klarna"
+    accessed: "2025-12-05"
+    reliability: "high"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "Headcount reduced from 5,527 to 2,907 (47% reduction)"
+      - "AI chatbot handles work of 700+ agents"
+      - "AI saved $60 million"
+      - "Reversal: began rehiring for quality issues"
+    tags: ["klarna", "case-study", "customer-service"]
+
+  - id: "amazon-management-cuts"
+    title: "Amazon Eliminates 14,000 Managerial Positions"
+    url: "https://www.aboutamazon.com/"
+    type: "news"
+    author: "Amazon"
+    accessed: "2025-12-05"
+    reliability: "high"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "14,000 managerial positions eliminated October 2025"
+      - "15% increase in IC-to-manager ratio"
+      - "$118 billion AI commitment in 2025"
+    tags: ["amazon", "management", "restructuring"]
+
+  - id: "salesforce-ai-cuts"
+    title: "Salesforce Customer Service AI Transformation"
+    url: "https://www.salesforce.com/news/"
+    type: "news"
+    author: "Salesforce"
+    accessed: "2025-12-05"
+    reliability: "high"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "Support team cut from 9,000 to 5,000"
+      - "AI handles ~50% of customer interactions"
+    tags: ["salesforce", "customer-service", "benioff"]
+
+  - id: "midjourney-efficiency"
+    title: "Midjourney Revenue Per Employee Analysis"
+    url: "https://www.midjourney.com/"
+    type: "analysis"
+    author: "Various"
+    accessed: "2025-12-05"
+    reliability: "medium"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "$500M ARR with 40-100 employees"
+      - "$5-12.5M revenue per employee"
+      - "Zero venture capital raised"
+    tags: ["midjourney", "efficiency", "ai-native"]
+
+  - id: "cursor-anysphere-growth"
+    title: "Cursor/Anysphere Growth Analysis"
+    url: "https://www.cursor.com/"
+    type: "analysis"
+    author: "Various"
+    accessed: "2025-12-05"
+    reliability: "medium"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "Fastest SaaS to $100M ARR (21 months)"
+      - "$1B ARR by November 2025"
+      - "60-150 employees"
+    tags: ["cursor", "ai-native", "growth"]
+
+  # ============================================
+  # Historical Bubble Analysis
+  # ============================================
+
+  - id: "wikipedia-dotcom-bubble"
+    title: "Dot-com Bubble"
+    url: "https://en.wikipedia.org/wiki/Dot-com_bubble"
+    type: "reference"
+    author: "Wikipedia"
+    accessed: "2025-12-05"
+    reliability: "medium"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "NASDAQ fell 75%, $5 trillion erased"
+      - "Internet adoption accelerated after crash"
+    tags: ["historical", "dotcom", "bubble"]
+
+  - id: "wikipedia-nortel"
+    title: "Nortel Networks"
+    url: "https://en.wikipedia.org/wiki/Nortel"
+    type: "reference"
+    author: "Wikipedia"
+    accessed: "2025-12-05"
+    reliability: "medium"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "Peak valuation $400B in 2000"
+      - "Down 95% by 2002, bankrupt 2009"
+      - "Patents sold for $4.5B"
+    tags: ["historical", "nortel", "telecom", "bankruptcy"]
+
+  - id: "wikipedia-telecom-crash"
+    title: "Telecommunications Bubble"
+    url: "https://en.wikipedia.org/wiki/Dot-com_bubble#Telecoms"
+    type: "reference"
+    author: "Wikipedia"
+    accessed: "2025-12-05"
+    reliability: "medium"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "Stranded fiber became cheap infrastructure"
+      - "Cisco still below 2000 peak"
+    tags: ["historical", "telecom", "infrastructure"]
+
+  - id: "fabricatedknowledge-telecom"
+    title: "Telecom Bubble Lessons for AI"
+    url: "https://www.fabricatedknowledge.com/"
+    type: "analysis"
+    author: "Fabricated Knowledge"
+    accessed: "2025-12-05"
+    reliability: "medium"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "Infrastructure overbuild enabled future growth"
+    tags: ["historical", "telecom", "lessons"]
+
+  # ============================================
+  # Executive Statements & Interviews
+  # ============================================
+
+  - id: "amodei-displacement-warning"
+    title: "Dario Amodei Warning on Entry-Level Jobs"
+    url: "https://www.anthropic.com/"
+    type: "interview"
+    author: "Dario Amodei (Anthropic CEO)"
+    accessed: "2025-12-05"
+    reliability: "high"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "AI could wipe out half of entry-level white-collar jobs"
+      - "Unemployment could spike to 10-20% in 1-5 years"
+      - "Claude writes 90% of Anthropic's code"
+    tags: ["anthropic", "amodei", "displacement"]
+
+  - id: "altman-job-displacement"
+    title: "Sam Altman on Job Displacement"
+    url: "https://openai.com/"
+    type: "interview"
+    author: "Sam Altman (OpenAI CEO)"
+    accessed: "2025-12-05"
+    reliability: "high"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "Jobs are definitely going to go away, full stop"
+      - "Knowledge work that cost $10K now costs a dollar"
+      - "Customer support will be better done by AI"
+    tags: ["openai", "altman", "displacement"]
+
+  - id: "hinton-unemployment"
+    title: "Geoffrey Hinton on AI Unemployment"
+    url: "https://www.nobelprize.org/"
+    type: "interview"
+    author: "Geoffrey Hinton"
+    accessed: "2025-12-05"
+    reliability: "very-high"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "AI will cause massive unemployment - we're seeing it already"
+    tags: ["hinton", "nobel", "displacement"]
+
+  - id: "lecun-skepticism"
+    title: "Yann LeCun AI Job Skepticism"
+    url: "https://ai.meta.com/"
+    type: "interview"
+    author: "Yann LeCun (Meta)"
+    accessed: "2025-12-05"
+    reliability: "high"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "No economist thinks AI will replace jobs"
+      - "Transition much slower than anticipated"
+    tags: ["meta", "lecun", "skepticism"]
+
+  - id: "benioff-reversal"
+    title: "Marc Benioff Position on AI Jobs"
+    url: "https://www.salesforce.com/"
+    type: "interview"
+    author: "Marc Benioff (Salesforce CEO)"
+    accessed: "2025-12-05"
+    reliability: "high"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "July 2025: AI augments people, doesn't replace"
+      - "September 2025: Reduced from 9,000 to 5,000 heads"
+    tags: ["salesforce", "benioff", "contradictions"]
+
+  # ============================================
+  # Market Analysis & Financial Data
+  # ============================================
+
+  - id: "nvidia-market-cap"
+    title: "Nvidia Market Capitalization"
+    url: "https://finance.yahoo.com/quote/NVDA/"
+    type: "market-data"
+    author: "Yahoo Finance"
+    accessed: "2025-12-05"
+    reliability: "very-high"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "$4.4T market cap"
+      - "$130B actual revenue"
+      - "30x P/E ratio"
+    tags: ["nvidia", "market-cap", "chips"]
+
+  - id: "microsoft-ai-gains"
+    title: "Microsoft AI-Driven Market Cap Gains"
+    url: "https://finance.yahoo.com/quote/MSFT/"
+    type: "market-data"
+    author: "Yahoo Finance"
+    accessed: "2025-12-05"
+    reliability: "very-high"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "+$1.6T since ChatGPT launch"
+      - "27% stake in OpenAI"
+      - "IP rights through 2032"
+    tags: ["microsoft", "openai", "investment"]
+
+  - id: "hyperscaler-capex"
+    title: "Hyperscaler AI Capital Expenditure"
+    url: "https://www.cnbc.com/"
+    type: "analysis"
+    author: "CNBC"
+    accessed: "2025-12-05"
+    reliability: "high"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "$241B CapEx in 2024"
+      - "$300-380B guidance for 2025"
+    tags: ["infrastructure", "capex", "investment"]
+
+  # ============================================
+  # Productivity & Adoption Research
+  # ============================================
+
+  - id: "upwork-productivity-survey"
+    title: "Upwork Research Institute Productivity Survey"
+    url: "https://www.upwork.com/research/"
+    type: "survey"
+    author: "Upwork Research Institute"
+    accessed: "2025-12-05"
+    reliability: "high"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "96% of C-suite expected AI to boost productivity"
+      - "77% of employees say AI added to workload"
+    tags: ["productivity", "survey", "upwork"]
+
+  - id: "mit-nanda-genai-divide"
+    title: "The GenAI Divide - MIT NANDA Report"
+    url: "https://nanda.mit.edu/"
+    type: "report"
+    author: "MIT NANDA"
+    accessed: "2025-12-05"
+    reliability: "medium"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "95% of enterprises see zero return from GenAI"
+      - "Methodologically questioned - small sample"
+    tags: ["mit", "adoption", "roi", "disputed"]
+
+  - id: "signalfire-hiring-decline"
+    title: "SignalFire Entry-Level Hiring Data"
+    url: "https://signalfire.com/"
+    type: "report"
+    author: "SignalFire"
+    accessed: "2025-12-05"
+    reliability: "medium"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "50% decline in entry-level tech hiring 2019-2024"
+    tags: ["hiring", "entry-level", "data"]
+
+  # ============================================
+  # Legal & IP Research
+  # ============================================
+
+  - id: "bankruptcy-365n"
+    title: "Section 365(n) IP Protection in Bankruptcy"
+    url: "https://www.law.cornell.edu/uscode/text/11/365"
+    type: "legal"
+    author: "Cornell Law"
+    accessed: "2025-12-05"
+    reliability: "very-high"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "IP licensees protected in bankruptcy proceedings"
+      - "Microsoft's OpenAI IP rights would survive bankruptcy"
+    tags: ["legal", "ip", "bankruptcy"]
+
+  # ============================================
+  # Analysis & Commentary
+  # ============================================
+
+  - id: "benedict-evans-platform-shifts"
+    title: "Benedict Evans on AI Platform Shifts"
+    url: "https://www.ben-evans.com/"
+    type: "analysis"
+    author: "Benedict Evans"
+    accessed: "2025-12-05"
+    reliability: "high"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "AI is another platform shift with 10-15 years development"
+      - "Can be clear this is the thing but unclear how it works"
+    tags: ["evans", "platform", "analysis"]
+
+  - id: "a16z-beyond-chatbots"
+    title: "Beyond Chatbots - Andreessen Horowitz on AI"
+    url: "https://a16z.com/"
+    type: "podcast"
+    author: "Marc Andreessen, Ben Horowitz"
+    accessed: "2025-12-05"
+    reliability: "medium"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "The fact that it's a question means we're not in a bubble"
+      - "AI has demand surplus not demand problem"
+    tags: ["a16z", "bubble", "analysis"]
+
+  - id: "empire-of-ai-hao"
+    title: "Empire of AI"
+    url: "https://www.karenhao.com/"
+    type: "book"
+    author: "Karen Hao"
+    accessed: "2025-12-05"
+    reliability: "high"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "77% of employees using AI say it adds to workload"
+      - "Insight into OpenAI/Altman dynamics"
+    tags: ["book", "openai", "culture"]
+
+  - id: "slow-productivity-newport"
+    title: "Slow Productivity"
+    url: "https://calnewport.com/"
+    type: "book"
+    author: "Cal Newport"
+    accessed: "2025-12-05"
+    reliability: "high"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "Pseudo-productivity: visible activity as proxy for actual effort"
+      - "No knowledge equivalent of assembly line productivity boost"
+    tags: ["book", "productivity", "knowledge-work"]
+
+  - id: "atm-teller-bessen"
+    title: "ATM-Teller Paradox Research"
+    url: "https://www.nber.org/"
+    type: "academic"
+    author: "James Bessen"
+    accessed: "2025-12-05"
+    reliability: "high"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "Tellers per branch dropped 35% but total employment stable"
+      - "ATMs enabled more branches, offsetting automation"
+      - "Teller employment now declining (347,400 by 2024)"
+    tags: ["atm", "historical", "automation"]
+
+  # ============================================
+  # Tools & Archives
+  # ============================================
+
+  - id: "archive-org-wayback"
+    title: "Wayback Machine"
+    url: "https://web.archive.org/"
+    type: "tool"
+    author: "Internet Archive"
+    accessed: "2025-12-05"
+    reliability: "very-high"
+    archive:
+      wayback: null
+      wayback_date: null
+    key_claims:
+      - "Primary tool for source archiving"
+    tags: ["tool", "archive"]

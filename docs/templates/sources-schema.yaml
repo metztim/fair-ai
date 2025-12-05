@@ -1,0 +1,108 @@
+# Sources Schema Documentation
+#
+# This file documents the schema for sources.yaml files used in investigations.
+# Copy the structure below when creating new sources.yaml files.
+
+# ============================================
+# METADATA SECTION
+# ============================================
+
+metadata:
+  investigation: "slug-name"           # URL-friendly name matching directory
+  created: "YYYY-MM-DD"                # Date investigation started
+  last_updated: "YYYY-MM-DD"           # Date of last source addition
+  total_sources: 0                     # Count of sources in file
+  archived_count: 0                    # Count of sources with Wayback archives
+
+# ============================================
+# SOURCES LIST
+# ============================================
+
+sources:
+  # Example source entry with all fields documented:
+
+  - id: "unique-identifier"            # REQUIRED: domain-topic-year format recommended
+    title: "Full title of source"      # REQUIRED: Article/report title
+    url: "https://example.com/path"    # REQUIRED: Full URL to source
+
+    type: "article"                    # REQUIRED: One of:
+                                       #   article - News articles, blog posts
+                                       #   report - Research reports, white papers
+                                       #   academic-paper - Peer-reviewed research
+                                       #   government-data - Official statistics
+                                       #   regulatory-filing - SEC, etc.
+                                       #   social-media - Twitter/X, LinkedIn posts
+                                       #   reference - Wikipedia, encyclopedias
+                                       #   interview - Podcasts, transcripts
+                                       #   book - Published books
+                                       #   tool - Software, services
+                                       #   market-data - Stock prices, financial data
+                                       #   press-release - Company announcements
+
+    author: "Author or Organization"   # REQUIRED: Who created this source
+
+    accessed: "YYYY-MM-DD"             # REQUIRED: When you accessed it
+
+    reliability: "high"                # REQUIRED: One of:
+                                       #   very-high - Government data, peer-reviewed
+                                       #   high - Major research firms, reputable news
+                                       #   medium - Industry analysis, Wikipedia
+                                       #   low - Social media, opinion, unverified
+
+    archive:                           # REQUIRED section (values can be null)
+      wayback: null                    # Wayback Machine URL when archived
+      wayback_date: null               # Date archived to Wayback
+
+    key_claims:                        # OPTIONAL: List key claims from source
+      - "First key claim or data point"
+      - "Second key claim"
+
+    tags:                              # OPTIONAL: Categorization tags
+      - "topic"
+      - "company"
+      - "type"
+
+    notes: "Optional notes"            # OPTIONAL: Research notes about source
+
+# ============================================
+# RELIABILITY SCORING GUIDE
+# ============================================
+#
+# very-high:
+#   - Government data (BLS, Census, SEC filings)
+#   - Peer-reviewed academic papers
+#   - Primary regulatory filings
+#   - Court documents
+#
+# high:
+#   - Major research firms (McKinsey, BCG, Gartner)
+#   - Reputable news (NYT, WSJ, Reuters)
+#   - Company press releases (for their own data)
+#   - Industry reports from known analysts
+#
+# medium:
+#   - Tech analysis sites (Stratechery, etc.)
+#   - Wikipedia (for general reference)
+#   - Industry blogs with track record
+#   - Aggregated data sites (Sacra, PitchBook)
+#
+# low:
+#   - Social media posts
+#   - Unverified claims
+#   - Opinion pieces without sources
+#   - Anonymous sources
+
+# ============================================
+# EXAMPLE MINIMAL ENTRY
+# ============================================
+
+# - id: "mckinsey-ai-2024"
+#   title: "The Economic Potential of Generative AI"
+#   url: "https://www.mckinsey.com/..."
+#   type: "report"
+#   author: "McKinsey"
+#   accessed: "2025-12-05"
+#   reliability: "high"
+#   archive:
+#     wayback: null
+#     wayback_date: null
