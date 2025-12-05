@@ -2,6 +2,87 @@
 
 ---
 
+## Session Log: 2025-12-05
+
+**Project**: ai-watchdog
+**Duration**: ~45 minutes
+**Type**: [feature] [migration] [automation]
+
+### Objectives
+- Implement research automation plan from `~/.claude/plans/quizzical-puzzling-cherny.md`
+- Move 15 AI bubble research files from writing-assistant to ai-watchdog
+- Create investigation structure with sources.yaml
+- Build slash commands for future research automation
+
+### Summary
+Completed full implementation of research automation system. Migrated all AI bubble investigation files from writing-assistant to ai-watchdog's new investigation structure. Created 52-source catalog in YAML format, built 3 slash commands for research workflow automation, and added templates and archiving script. All AI bubble research now consolidated in single location.
+
+### Files Changed
+- `research/investigations/ai-bubble-valuation/INVESTIGATION.md` - Main investigation doc with hypothesis, findings, methodology
+- `research/investigations/ai-bubble-valuation/sources.yaml` - 52 sources catalogued with metadata schema
+- `research/investigations/ai-bubble-valuation/compiled-research.md` - Moved from writing-assistant
+- `research/investigations/ai-bubble-valuation/sessions/20251204-valuation-discussion.txt` - Moved session log
+- `research/investigations/ai-bubble-valuation/sessions/20251205-bubble-research.txt` - Moved session log
+- `research/investigations/ai-bubble-valuation/sessions/20251205-valuation-methodology.md` - New session log
+- `research/investigations/ai-bubble-valuation/drafts/article-v1-20251117.md` - Moved article draft
+- `research/investigations/ai-bubble-valuation/drafts/article-v2-20251204.md` - Moved article draft
+- `research/investigations/ai-bubble-valuation/drafts/linkedin-*.md` - Moved LinkedIn drafts (5 files)
+- `research/investigations/ai-bubble-valuation/drafts/notes-20251114-*.md` - Moved notes (2 files)
+- `research/investigations/ai-bubble-valuation/research/ai-thesis-research-1.md` - Moved research doc
+- `research/investigations/ai-bubble-valuation/research/ai-thesis-research-2.md` - Moved research doc
+- `research/investigations/ai-bubble-valuation/research/awilkinson-job-collapse.md` - Moved research doc
+- `.claude/commands/new-investigation.md` - Slash command to initialize new investigations
+- `.claude/commands/extract-sources.md` - Slash command to extract/archive URLs
+- `.claude/commands/save-research-session.md` - Slash command to save session and commit
+- `docs/templates/investigation-template.md` - Reusable investigation scaffold
+- `docs/templates/sources-schema.yaml` - Schema documentation for sources.yaml
+- `scripts/archive-sources.py` - Python script for Wayback Machine archiving
+- `docs/SESSION_LOG.md` - Added session 2 log entry
+- `docs/research/12-open-source-direction.md` - Created open source direction doc
+- `docs/2025-11-28-git-repo-research-outline-with-test-case.txt` - Session transcript
+
+### Technical Notes
+- Used file copy (not move) for safety, then deleted originals after verification
+- sources.yaml schema includes reliability scoring (very-high/high/medium/low)
+- Archive script uses 5s rate limiting to avoid Wayback Machine blocking
+- Slash commands designed for git-integrated workflow (branch per investigation)
+
+### Key Findings Documented in Investigation
+- 25% knowledge work displacement = $12.5-17.5T global value pool
+- AI companies need 5-10% capture rate to justify ~$19T valuations
+- IP survives bankruptcy via Section 365(n) protection
+- Historical precedent: bubble pops accelerate adoption (dot-com, 2008)
+- Core thesis: "Displacement is the constant; the bubble is just timing"
+
+### Future Plans & Unimplemented Phases
+
+#### Wayback Archive Execution
+**Status**: Not started (script created, not run)
+**Planned Steps**:
+1. Run `python scripts/archive-sources.py research/investigations/ai-bubble-valuation/sources.yaml`
+2. Script will submit 52 URLs to Wayback Machine with 5s rate limiting
+3. Update sources.yaml with archive URLs and dates
+4. Commit updated sources.yaml
+
+#### Writing-Assistant Cleanup
+**Status**: Complete
+- Original files deleted from writing-assistant after verification
+
+### Next Actions
+- [ ] Run archive-sources.py to archive all 52 sources to Wayback Machine
+- [ ] Push commits to remote: `git push`
+- [ ] Test slash commands: `/new-investigation test-topic`
+- [ ] Continue AI bubble article writing using consolidated research
+- [ ] Consider publishing investigation as open-source research pilot
+
+### Metrics
+- Files created: 24
+- Lines added: 4,452
+- Sources catalogued: 52
+- Commits: 2
+
+---
+
 ## Session Log: 2025-11-28 (Session 2)
 
 **Project**: ai-watchdog (now fair-ai)
