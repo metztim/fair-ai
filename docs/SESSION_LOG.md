@@ -2,6 +2,80 @@
 
 ---
 
+## Session Log: 2025-11-28 (Session 2)
+
+**Project**: ai-watchdog (now fair-ai)
+**Duration**: ~20 minutes
+**Type**: [strategy] [pivot] [setup]
+
+### Objectives
+- Initialize git repository and connect to GitHub
+- Make positioning decision: Ethics vs Compliance vs Hybrid
+- Map out new direction based on founder preferences
+
+### Summary
+Major strategic pivot. Tim decided against enterprise/compliance direction (doesn't fit skills or interests). New direction: **Open Source AI Accountability** - a radically transparent, community-driven approach. Pro-AI, pro-informed-decisions. Everything open source including methodology, data, and self-accountability (publishing own token usage). Created comprehensive direction document mapping out this new model.
+
+### Files Changed
+- `docs/research/12-open-source-direction.md` - Created: New strategic direction document (~350 lines)
+- Git initialized and pushed to https://github.com/metztim/fair-ai
+
+### Key Decisions
+
+**The Pivot:**
+- Rejected enterprise/compliance angle (wrong founder fit)
+- Embraced open source, transparency-first model
+- Focus: Help people make informed decisions, not attack AI companies
+
+**Core Philosophy:**
+- Pro-AI, pro-informed-decisions (not anti-AI)
+- Radical transparency: everything on GitHub
+- Self-accountability: publish own AI token usage
+- No ideological gate: contributors can be pro or skeptical, profiles show perspectives
+- Invitation over accusation: "Here's what we found, help us improve"
+
+**New Model Structure:**
+- Open source foundation (GitHub for all research, data, methodology)
+- Volunteer contributor model (Superpath, engineers, researchers)
+- Automated transparency infrastructure (token tracking, auto-publishing)
+
+**Income Path (revised):**
+- Phase 1: Side project, no income
+- Phase 2: Donations/grants/sponsorships
+- Phase 3: If traction → premium content, consulting, or scale donations
+
+### Open Questions (for next session)
+
+1. **Name:** Is "Fair AI" right? Alternatives: AI Transparency Project, Open AI Watch, Clear AI?
+2. **First project:** Environmental comparison (Opus vs Haiku)? Training data? Something else?
+3. **Legal structure:** Personal project → Open Collective → 501(c)(3)?
+4. **Scope:** Just foundation models to start?
+5. **Contributor vetting:** How open is open?
+
+### Technical Notes
+- Git repo initialized at https://github.com/metztim/fair-ai
+- 16 files committed (13,803 lines of existing research)
+- New direction document preserves previous research as context
+
+### Next Actions
+- [ ] Review and react to `12-open-source-direction.md`
+- [ ] Decide on name/brand
+- [ ] Decide on first project
+- [ ] Set up basic infrastructure (GitHub org, simple website)
+- [ ] Define token tracking approach for self-accountability
+
+### Metrics
+- Files created: 1 (direction document)
+- Lines added: ~350
+- Git commits: 1 (initial commit with all research)
+
+### Session Continuation
+```
+"Continue fair-ai project - read README.md and docs/SESSION_LOG.md for context. Review 12-open-source-direction.md."
+```
+
+---
+
 ## Session Log: 2025-11-28
 
 **Project**: ai-watchdog
