@@ -2,7 +2,7 @@
 
 **Status:** Active
 **Started:** 2025-11-14
-**Last Updated:** 2025-12-05
+**Last Updated:** 2025-12-06
 **Lead:** Tim Metz
 
 ---
@@ -71,6 +71,25 @@ Even if OpenAI or Anthropic fail financially, their technology persists:
 - Section 365(n) of bankruptcy code protects IP licensees
 - Nortel precedent: Patents sold for $4.5B, technology continued development
 
+### 6. Two-Timeline Distinction (Added 2025-12-06)
+
+The bubble question involves two separate timelines:
+
+**Timeline 1: Market confidence (1-2 years)**
+- Revenue growth continues at 3x+
+- Enterprise case studies emerge (Klarna-style)
+- Leading indicators signal thesis is working
+- → Market maintains faith, bubble doesn't pop
+
+**Timeline 2: Actual displacement (4-6 years)**
+- Organizations implement AI infrastructure
+- Headcount reductions materialize at scale
+- Labor market shifts become visible
+
+**Key insight:** The bubble doesn't pop when displacement *happens*—it pops (or doesn't) based on whether the market *believes* displacement will happen. Actual displacement can take 4-6 years as long as near-term signals (1-2 years) remain strong.
+
+This reframes the argument: you don't need to prove 25% displacement in 2-4 years, only that leading indicators support the trajectory.
+
 ---
 
 ## Core Thesis
@@ -110,6 +129,8 @@ See `sources.yaml` for complete source list with archive links.
 2. How do regulatory responses (EU AI Act, etc.) affect deployment speed?
 3. What's the timeline for enterprise AI adoption at scale?
 4. How do energy constraints affect AI scaling?
+5. What specific "signals to watch" indicate thesis is playing out? (Revenue milestones, adoption metrics, case studies)
+6. How to best present the math in article format - sensitivity analysis needed?
 
 ---
 
