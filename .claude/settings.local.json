@@ -5,7 +5,12 @@
       "WebFetch(domain:sacra.com)",
       "WebFetch(domain:www.animalz.co)",
       "WebFetch(domain:www.linkedin.com)",
-      "WebFetch(domain:www.superpath.co)"
+      "WebFetch(domain:www.superpath.co)",
+      "SlashCommand(/save-research-session)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(tree:*)",
+      "WebFetch(domain:ineslee.substack.com)"
     ],
     "deny": [],
     "ask": []
