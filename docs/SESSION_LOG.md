@@ -2,6 +2,86 @@
 
 ---
 
+## Session Log: 2025-12-08
+
+**Project**: ai-watchdog
+**Duration**: ~30 minutes
+**Type**: [strategy] [outreach] [planning]
+
+### Objectives
+- Synthesize everything in the project to clarify current direction
+- Define the three article/investigation ideas
+- Create outreach strategies for Walter Chen and Ines Lee
+- Determine sequencing (finish AI bubble first vs. reach out now)
+
+### Summary
+Comprehensive review of project status. Clarified three solid article ideas that fit the AI Watchdog mission. Created detailed outreach strategies for two key contacts: Walter Chen (feedback/validation) and Ines Lee (potential collaborator). Decision made to finish AI bubble article first before reaching out—gives something concrete to point to.
+
+### Key Decisions
+
+**Three Article Ideas Confirmed:**
+
+| # | Topic | Status | Unique Angle |
+|---|-------|--------|--------------|
+| 1 | AI Bubble Valuation | Draft v2 (~5k words) | "Let's Hope We're in an AI Bubble—The Alternative Is Worse" |
+| 2 | Haiku Environmental | Idea stage | Should Anthropic show a "green" icon? + Token tracking app |
+| 3 | AI Crawlers & robots.txt | Idea stage | Index of which crawlers respect/ignore robots.txt |
+
+**Outreach Sequencing:**
+1. Finish AI bubble article first (2 weeks max)
+2. Publish it (Substack/GitHub/Medium)
+3. Reach out to Walter (1 week after publishing)
+4. Reach out to Ines (same week or slightly after)
+
+**Rationale:** Having a published piece transforms "I'm thinking about this" into "here's what I've built." Infinitely stronger positioning for both conversations.
+
+**Outreach Angles:**
+- **Walter Chen:** Peer-to-peer feedback. "You built the playbook with Sacra. I'm doing something similar for AI. Would love your perspective."
+- **Ines Lee:** Respect for her work + genuine feedback request. Open door to collaboration without leading with it.
+
+### Files Created
+- `docs/outreach/walter-chen-outreach.md` - Full outreach strategy with draft messages
+- `docs/outreach/ines-lee-outreach.md` - Full outreach strategy with draft messages
+- `docs/STRATEGIC_OVERVIEW.md` - Master reference for current direction (see below)
+
+### Research Conducted
+- Comprehensive profile on Walter Chen (Animalz, Sacra, investment thesis, methodology)
+- Comprehensive profile on Ines Lee (Oxford PhD, Ali Abdaal, AI writing, portfolio career)
+- Full project exploration via subagents (12 research docs, AI bubble investigation, open source pivot)
+
+### Walter Chen Key Insights
+- Founded Sacra doing exactly what AI Watchdog aspires to (data + narrative on opaque markets)
+- Values "doing over theorizing"—show the work, not the pitch deck
+- Invests in founders over products
+- Hates transactional asks; loves genuine relationship-first conversations
+
+### Ines Lee Key Insights
+- Oxford PhD economist, left academia for impact-focused work
+- Head of Content for Ali Abdaal (6M+ subscribers)
+- Explicitly has "growing focus on AI progress and policy"
+- Portfolio career model—open to project-based collaborations
+- Thoughtfully critical of AI (cognitive decline, content homogenization)
+
+### Next Actions
+- [ ] Finish AI bubble article (Draft v3 → publishable)
+- [ ] Publish AI bubble article
+- [ ] Send Walter Chen outreach (after publishing)
+- [ ] Send Ines Lee outreach (after publishing)
+- [ ] Begin Haiku environmental investigation
+- [ ] Research AI crawlers/robots.txt for third article
+
+### Session Continuation
+```
+"Continue AI Watchdog project. Read docs/STRATEGIC_OVERVIEW.md and docs/SESSION_LOG.md for context. Focus on finishing the AI bubble article."
+```
+
+### Metrics
+- Files created: 3
+- Research profiles compiled: 2 (Walter Chen, Ines Lee)
+- Outreach strategies drafted: 2
+
+---
+
 ## Session Log: 2025-12-05
 
 **Project**: ai-watchdog
