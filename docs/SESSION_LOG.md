@@ -2,6 +2,114 @@
 
 ---
 
+## Session Log: 2025-12-09 (Session 2)
+
+**Project**: ai-watchdog
+**Duration**: ~1 hour
+**Type**: [research] [writing]
+
+### Objectives
+- Continue developing the "Math of Massive Displacement" section for AI bubble article
+- Validate key numbers with fresh research
+- Integrate belief/perception timing argument into the thesis
+
+### Summary
+Deep research session validating the math behind the AI bubble valuation thesis. Confirmed key figures: global knowledge worker wages ($50-70T), AI market cap breakdown ($10-12T speculative), and historical capture rates (5-10% normal). Developed the "displacement is the constant; bubble is just timing" thesis, showing both bull and bear scenarios lead to displacement. Refined the belief/perception timing argument—market confidence buys runway for technology to prove itself.
+
+### Files Changed
+- `research/investigations/ai-bubble-valuation/sessions/20251209-math-section-drafting.md` - Created comprehensive session log with all validated numbers, frameworks, and thesis development
+- `research/investigations/ai-bubble-valuation/INVESTIGATION.md` - Updated Last Updated date to 2025-12-09
+
+### Technical Notes
+
+**Key Math Validated:**
+- Only 3-5% capture rate needed to justify $10-12T speculative valuation
+- This is BELOW historical norms (5-10%)
+- Rebuts "AGI or bust" framing—normal automation dynamics suffice
+
+**Value Layer Shift Thesis:**
+- Infrastructure captures value first (Nvidia = Cisco 2000)
+- Application layer captures long-term (OpenAI/Anthropic = Google/Amazon eventual)
+- Dot-com precedent: Cisco/Nortel peaked at $1.2T, collapsed; Google/Amazon now multi-trillion
+
+**Belief/Perception Insight:**
+- Technology ready NOW
+- Implementation needs 2-5 years runway
+- Market confidence determines if rollout succeeds
+- BUT: Even if bubble pops, displacement still happens (accelerated via cost pressure + cheap stranded infrastructure)
+
+### Future Plans & Unimplemented Phases
+
+#### Phase: Article Section Drafting
+**Status**: In progress
+**Planned Steps**:
+1. Refine belief/perception scenarios in draft (make mechanism clearer)
+2. Write out math calculation in readable prose for article
+3. Draft the "both paths lead to displacement" section
+4. Integrate value layer shift as supporting argument
+5. Place the two-timeline framing appropriately
+
+**Implementation Notes**:
+- Tim has started drafting by hand—needs scenarios refined
+- Core flowchart developed showing both paths → displacement
+- Math section placeholder still needs actual prose
+
+### Next Actions
+- [ ] Refine belief/perception scenarios in draft
+- [ ] Write out math calculation in readable prose
+- [ ] Draft "both paths lead to displacement" section
+- [ ] Integrate value layer shift argument
+- [ ] Consider where to place two-timeline framing
+
+### Session Continuation
+```
+Continue AI bubble article. Read research/investigations/ai-bubble-valuation/sessions/20251209-math-section-drafting.md for full context. We were working on the "Math of Massive Displacement" section, specifically refining the belief/perception timing argument and connecting it to the "displacement is the constant" thesis.
+```
+
+### Metrics
+- Files created: 1
+- Files modified: 1
+- Research validated: 3 major data points (wages, market cap, capture rates)
+- Commits: 1 (0b8ebb7)
+
+---
+
+## Session Log: 2025-12-09
+
+**Project**: ai-watchdog / claude-carbon
+**Duration**: ~10 minutes
+**Type**: [bugfix]
+
+### Objectives
+- Debug why Claude Carbon menu bar app shows 0 tokens despite running
+
+### Summary
+Diagnosed and fixed a parameter name mismatch bug in Claude Carbon. The Claude Code hooks were sending `session=$CLAUDE_SESSION_ID` but the Swift app's URLSchemeHandler was expecting `sessionId`. Fixed by updating the Swift code to accept both parameter names.
+
+### Files Changed
+- `claude-carbon/ClaudeCarbon/App/URLSchemeHandler.swift` - Fixed parameter name mismatch: now accepts both `session` and `sessionId` for compatibility
+
+### Technical Notes
+- The hooks in `~/.claude/settings.json` were correctly installed
+- URL scheme `claudecarbon://` was properly registered in Info.plist
+- The bug was a simple string mismatch: hook sends `session=`, code looked for `sessionId=`
+- Fix uses nil-coalescing: `parameters["session"] ?? parameters["sessionId"]`
+
+### Root Cause
+Hook command: `open -g 'claudecarbon://event?type=prompt&session=$CLAUDE_SESSION_ID'`
+Code expected: `parameters["sessionId"]`
+Result: Guard failed silently, no tokens tracked
+
+### Next Actions
+- [ ] Rebuild app in Xcode and verify token tracking works
+- [ ] Consider adding debug logging to Console.app for easier troubleshooting
+
+### Metrics
+- Files modified: 1
+- Lines changed: 3
+
+---
+
 ## Session Log: 2025-12-08
 
 **Project**: ai-watchdog
