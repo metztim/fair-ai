@@ -204,16 +204,6 @@ Tim has drafted the opening of "The Math of Massive Displacement" section. Curre
 
 ---
 
-## Next Actions
-
-- [ ] Refine the belief/perception scenarios in the draft
-- [ ] Write out the math calculation in readable prose
-- [ ] Draft the "both paths lead to displacement" section
-- [ ] Integrate value layer shift as supporting argument
-- [ ] Consider where to place the two-timeline framing
-
----
-
 ## Session Continuation
 
 ```

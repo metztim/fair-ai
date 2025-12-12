@@ -91,15 +91,6 @@ No new external sources added this session - focused on synthesis and validation
 
 ---
 
-## Next Actions
-
-- [ ] Draft actual prose for "The Math of Massive Displacement" section
-- [ ] Draft the "Bubble and Displacement Are Intertwined" section with the two-timeline framing
-- [ ] Consider rebuttal paragraph for "AGI or bust" argument
-- [ ] Identify 2-3 key "signals to watch" for market confidence
-
----
-
 ## Files Created/Modified This Session
 
 - `sessions/20251206-math-validation-timeline.md` (this file)

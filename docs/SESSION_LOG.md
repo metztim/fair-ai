@@ -1,5 +1,7 @@
 # Session Logs
 
+> **Note:** Active tasks are now tracked in [GitHub Issues](https://github.com/metztim/fair-ai/issues).
+
 ---
 
 ## Session Log: 2025-12-09 (Session 2)
@@ -54,13 +56,6 @@ Deep research session validating the math behind the AI bubble valuation thesis.
 - Core flowchart developed showing both paths → displacement
 - Math section placeholder still needs actual prose
 
-### Next Actions
-- [ ] Refine belief/perception scenarios in draft
-- [ ] Write out math calculation in readable prose
-- [ ] Draft "both paths lead to displacement" section
-- [ ] Integrate value layer shift argument
-- [ ] Consider where to place two-timeline framing
-
 ### Session Continuation
 ```
 Continue AI bubble article. Read research/investigations/ai-bubble-valuation/sessions/20251209-math-section-drafting.md for full context. We were working on the "Math of Massive Displacement" section, specifically refining the belief/perception timing argument and connecting it to the "displacement is the constant" thesis.
@@ -99,10 +94,6 @@ Diagnosed and fixed a parameter name mismatch bug in Claude Carbon. The Claude C
 Hook command: `open -g 'claudecarbon://event?type=prompt&session=$CLAUDE_SESSION_ID'`
 Code expected: `parameters["sessionId"]`
 Result: Guard failed silently, no tokens tracked
-
-### Next Actions
-- [ ] Rebuild app in Xcode and verify token tracking works
-- [ ] Consider adding debug logging to Console.app for easier troubleshooting
 
 ### Metrics
 - Files modified: 1
@@ -169,15 +160,6 @@ Comprehensive review of project status. Clarified three solid article ideas that
 - Explicitly has "growing focus on AI progress and policy"
 - Portfolio career model—open to project-based collaborations
 - Thoughtfully critical of AI (cognitive decline, content homogenization)
-
-### Next Actions
-- [ ] Finish AI bubble article (Draft v3 → publishable)
-- [ ] Download and analyze enterprise AI usage reports from OpenAI and Anthropic (for AI bubble article)
-- [ ] Publish AI bubble article
-- [ ] Send Walter Chen outreach (after publishing)
-- [ ] Send Ines Lee outreach (after publishing)
-- [ ] Begin Haiku environmental investigation
-- [ ] Research AI crawlers/robots.txt for third article
 
 ### Session Continuation
 ```
@@ -257,13 +239,6 @@ Completed full implementation of research automation system. Migrated all AI bub
 **Status**: Complete
 - Original files deleted from writing-assistant after verification
 
-### Next Actions
-- [ ] Run archive-sources.py to archive all 52 sources to Wayback Machine
-- [ ] Push commits to remote: `git push`
-- [ ] Test slash commands: `/new-investigation test-topic`
-- [ ] Continue AI bubble article writing using consolidated research
-- [ ] Consider publishing investigation as open-source research pilot
-
 ### Metrics
 - Files created: 24
 - Lines added: 4,452
@@ -326,13 +301,6 @@ Major strategic pivot. Tim decided against enterprise/compliance direction (does
 - Git repo initialized at https://github.com/metztim/fair-ai
 - 16 files committed (13,803 lines of existing research)
 - New direction document preserves previous research as context
-
-### Next Actions
-- [ ] Review and react to `12-open-source-direction.md`
-- [ ] Decide on name/brand
-- [ ] Decide on first project
-- [ ] Set up basic infrastructure (GitHub org, simple website)
-- [ ] Define token tracking approach for self-accountability
 
 ### Metrics
 - Files created: 1 (direction document)
@@ -409,12 +377,6 @@ Moved loose research files into `docs/research/`:
 12 documents, ~15,000+ lines:
 - 00-11: Full research coverage from Sacra analysis through enterprise demand validation
 
-### Next Actions
-- [ ] **Decision required:** Ethics vs Compliance vs Hybrid positioning
-- [ ] If compliance: Identify potential regulatory co-founders/advisors
-- [ ] If ethics: Accept smaller market, proceed with Newsletter → Research Firm path
-- [ ] Have Walter Chen conversation (framing depends on above decision)
-
 ### Session Continuation
 ```
 "Continue AI watchdog project - read README.md and docs/SESSION_LOG.md for context."
@@ -489,13 +451,6 @@ Created comprehensive business scenarios report analyzing three distinct busines
 
 **Total research: ~12,000+ lines across 10 documents**
 
-### Next Actions
-- [ ] Decide on business model direction (Newsletter vs Research Firm vs Certification)
-- [ ] Have Walter Chen conversation
-- [ ] Have financial conversation with wife
-- [ ] If Research Firm path: Begin methodology development
-- [ ] If Certification path: Identify foundation funding sources and advisory board targets
-
 ---
 
 ## Session Log: 2025-11-26 (Continuation)
@@ -559,15 +514,10 @@ Completed remaining 2 research areas. All 5 research areas now complete. Full re
 
 **Total research: ~9,000+ lines across 5 documents**
 
-### Next Actions (Updated)
+### Completed
 - [x] Complete Area 4: Financial Viability research
 - [x] Complete Area 5: Location & Operations research
 - [x] Create executive synthesis document (00-executive-synthesis.md)
-- [ ] Have Walter Chen conversation with concrete pitch
-- [ ] Have financial conversation with wife (critical)
-- [ ] Start daily AI ethics Twitter/forum engagement
-- [ ] Draft advisory board target list (50+ names)
-- [ ] Model personal financial transition scenarios with actual numbers
 
 ### Executive Synthesis Created
 
@@ -735,14 +685,6 @@ Completed 3 of 5 planned research areas focusing on "deal-breaker" questions fir
 2. Secure 18-24 months runway (savings + consulting bridge)
 3. Complete 90-day network-building sprint
 4. Demonstrate methodology with first pilot rating
-
-### Next Actions
-- [ ] Complete Area 4: Financial Viability research (new session)
-- [ ] Complete Area 5: Location & Operations research (new session)
-- [ ] Start daily AI ethics Twitter/forum engagement
-- [ ] Draft advisory board target list (50+ names)
-- [ ] Begin soft conversations with Walter Chen about concept
-- [ ] Model personal financial transition scenarios
 
 ### Session Continuation Instructions
 To continue in new session:

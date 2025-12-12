@@ -101,15 +101,6 @@ See `sources.yaml` for full list. Key sources this session:
 
 ---
 
-## Next Actions
-
-- [ ] Draft "Math of Massive Displacement" section for article
-- [ ] Create value capture visualization
-- [ ] Research regulatory timeline (EU AI Act, US policy)
-- [ ] Interview knowledge workers on AI workflow adoption
-
----
-
 ## Files Created/Modified This Session
 
 - `INVESTIGATION.md` - Main investigation document

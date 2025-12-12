@@ -15,7 +15,12 @@
       "Bash(find:*)",
       "WebFetch(domain:github.com)",
       "Bash(xcodebuild:*)",
-      "Bash(swiftc -parse:*)"
+      "Bash(swiftc -parse:*)",
+      "Bash(gh repo view:*)",
+      "Bash(gh label list:*)",
+      "Bash(gh issue list:*)",
+      "Bash(gh label create:*)",
+      "Bash(gh issue create:*)"
     ],
     "deny": [],
     "ask": []

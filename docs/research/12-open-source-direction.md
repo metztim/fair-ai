@@ -193,37 +193,19 @@ Option D: **Hybrid**
 
 ## Evolution Path
 
-### Month 1-3: Foundation
+> **Note:** Active tasks are tracked in [GitHub Issues](https://github.com/metztim/fair-ai/issues).
 
-- [ ] Set up GitHub infrastructure
-- [ ] Create website (simple, static)
-- [ ] Define first research project (e.g., model environmental comparison)
-- [ ] Publish first piece with full methodology
-- [ ] Set up token tracking and self-reporting
-- [ ] Recruit 2-3 initial contributors
+### Month 1-3: Foundation
+Set up GitHub infrastructure, create simple website, define first research project, publish first piece with full methodology, set up token tracking and self-reporting, recruit 2-3 initial contributors.
 
 ### Month 4-6: Prove the Model
-
-- [ ] 3-5 published research pieces
-- [ ] Methodology documentation complete
-- [ ] Contributor profiles live
-- [ ] Self-accountability reports published
-- [ ] Initial audience building (Twitter, Superpath, HN)
+Publish 3-5 research pieces, complete methodology documentation, launch contributor profiles, publish self-accountability reports, begin audience building (Twitter, Superpath, HN).
 
 ### Month 7-12: Build Reputation
-
-- [ ] Expand coverage
-- [ ] Seek initial grants or donations
-- [ ] Grow contributor base
-- [ ] Establish as credible source
-- [ ] Decision point: Is there traction?
+Expand coverage, seek initial grants or donations, grow contributor base, establish as credible source. Decision point: Is there traction?
 
 ### Year 2+: If Traction
-
-- Explore income options
-- Potentially transition Tim to part-time → full-time
-- Scale contributor model
-- Consider formal nonprofit structure
+Explore income options, potentially transition Tim to part-time → full-time, scale contributor model, consider formal nonprofit structure.
 
 ---
 
