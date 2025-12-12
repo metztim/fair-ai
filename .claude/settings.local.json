@@ -10,7 +10,12 @@
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Bash(tree:*)",
-      "WebFetch(domain:ineslee.substack.com)"
+      "WebFetch(domain:ineslee.substack.com)",
+      "Bash(file:*)",
+      "Bash(find:*)",
+      "WebFetch(domain:github.com)",
+      "Bash(xcodebuild:*)",
+      "Bash(swiftc -parse:*)"
     ],
     "deny": [],
     "ask": []
